@@ -2,11 +2,13 @@ import React from "react";
 
 const ProdItem = (props) => {
 
-  const removeHandler = (event) => {
-    const ele = event.target.parentElement;
-    const dltId = ele.getAttribute("id")
-    props.onDltItem(dltId);
-    ele.remove();
+  const removeHandler = () => {
+    props.onDltItem(props.id);
+    // const ele = event.target.parentElement;
+    // const dltId = ele.getAttribute("id")
+    // props.onDltItem(dltId);
+    // ele.remove();
+
   };
 
   return (

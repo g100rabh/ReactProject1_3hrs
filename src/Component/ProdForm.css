@@ -1,0 +1,31 @@
+.form {
+    padding: 20px;
+    background-color: #f4f4f4;
+  }
+  
+  .prodForm {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .prodForm label {
+    margin-bottom: 5px;
+  }
+  
+  .prodForm input {
+    margin-bottom: 10px;
+    padding: 5px;
+  }
+  
+  .prodForm button {
+    margin-left: 5%;
+    background-color: #ff0000;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin-top: 10px;
+    align-self: flex;
+  }
+  

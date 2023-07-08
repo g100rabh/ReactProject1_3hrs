@@ -20,8 +20,8 @@ function App() {
       total += parseInt(element.prodSp);
   });
 
-  const onDeleteProd = (id) => {
-    const updatedItems = items.filter((element) => element.id !== id);
+  const onDeleteProd = (idForRemove) => {
+    const updatedItems = items.filter((element) => element.id !== idForRemove);
     setItems(updatedItems);
   };
 
